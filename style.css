@@ -1,0 +1,16 @@
+{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border_box;
+}
+
+body{
+    background-color: blue;
+    font-size: 50px;
+    border-color: chocolate;
+
+
+}
+table {
+    with: 50%;
+}
