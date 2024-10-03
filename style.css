@@ -1,6 +1,6 @@
 {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border_box;
 }
 
@@ -10,7 +10,25 @@ body{
     border-color: chocolate;
 
 
+}#heading
+{
+background-color: blueviolet;
+font-size: 50px;
+border-color: brown;
+border-width: 4px;
+border-radius: 12px;
+color: red;
+text-align: cemter;
+
 }
-table {
-    with: 50%;
+table{
+    width: 50%;
+    font-size: 20px;
+    color: crimson;
+    font-weight: bold;
 }
+#container{
+    display: flex;
+    justify-content: center;
+}
+    

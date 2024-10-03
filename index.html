@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <!--tr>td*2-->
+    <div id="container">
+        <table border="2px">
+
         <form action="">
         <tr>
         <td colspans="2" id ="heading">registration form</td>
@@ -21,9 +23,26 @@
         <td><input type="password" name="t1" id+" "></td>
         <td>Address</td>
         <td><textarea rows="6 " " cols="26" name="" id=""></textarea></td>
-        <tr>
+    </tr>
+    <tr>
+        <td> BRANCH</td>
+        <td>
+            CSE<input type="radio" name="r1" id="" value="CSE">
+            CS<input type="radio" name="r1" id="" value="CS">
+            CE<input type="radio" name="r1" id="" value="CE">
+            IT<input type="radio" name="r1" id="" value="IT">
+        </td>
+    </tr>
+    <tr>
+        <td>Language</td>
+        <td>C <input type="checkbox" name="c1" id=""value="c">
+        C++ <input type="checkbox" name="c1" id=""value="c">
+        java<input type="checkbox" name="c1" id=""value="c">
+        </td>
+    </tr>
+
             <td> upload profile picture</td>
-            <td><input type="file" name"" id=""></td>
+            <td><input type="file" name="" id=""></td>
             </tr>
         <tr>
             <td> City</td>
@@ -33,14 +52,15 @@
                     <option value="">delhi</option>
                     <option value="">noida</option>
                 </select>
-
-            </option>
-
-            </td>
+        </tr>
+        <tr>
+            <td> Date of birth</td>
+            <td><input type="data" name="" id=""</td>
         </tr>
         
-        </form>
+        
     </table>
+</form>
     
 </body>
 </html>
